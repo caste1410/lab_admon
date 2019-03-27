@@ -1,0 +1,27 @@
+.localTime {
+  left: 25%;
+}
+.serverTime {
+  right: 25%;
+}
+.serverTime, .localTime{
+  display: inline-block;
+  font-family: 'IBM Plex Mono', monospace;
+  text-align: center;
+  position:  fixed;
+  font-size: auto;
+  background: rgba(143, 158, 180, 0.5);
+  color: #272C32;
+  width: 20%;
+  padding: 30px;
+  bottom: 43%;
+
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
