@@ -1,0 +1,12 @@
+version: '3'
+services:
+  server:
+    build: ./server
+    hostname: server
+    domainname: server.com
+    ports:
+     - "8080:80"
+  cliente:
+    build: ./client
+
+  
